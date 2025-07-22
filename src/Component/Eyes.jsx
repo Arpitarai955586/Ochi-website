@@ -38,7 +38,7 @@ const Eyes = () => {
         <div className='absolute flex items-center justify-center gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
           
           {/* Left Eye */}
-          <div className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center'>
+          <div data-scroll data-scroll-speed=".05"  className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center '>
             <div className='w-[10vw] h-[10vw] rounded-full bg-zinc-900 relative'>
               <div
                 className='w-10 h-10 rounded-full bg-zinc-100 absolute'
@@ -52,7 +52,7 @@ const Eyes = () => {
           </div>
 
           {/* Right Eye */}
-          <div className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center'>
+          <div data-scroll data-scroll-speed=".05" className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center'>
             <div className='w-[10vw] h-[10vw] rounded-full bg-zinc-900 relative'>
               <div
                 className='w-10 h-10 rounded-full bg-zinc-100 absolute'

@@ -1,35 +1,4 @@
-// import React from 'react'
 
-// const Feacture = () => {
-//   return (
-//     <div className='w-full py-10 bg-zinc-900 mt-20'>
-//        <div className='w-full px-10 border-b-[1px] border-zinc-700 pb-20'>
-//              <h1 className='text-8xl font-[Neue_Montreal]'>Featured projects</h1>
-//        </div>
-//        <div className='px-20'>
-//             <div className='cards w-full flex gap-10 mt-10'>
-//                   <div className='cards w-full flex gap-10 mt-10'>
-//                     <div className='cardcontainer read-only:  w-1/2 h-[75vh] '>
-//                       <div className=''>
-
-//                       </div>
-//                          <div className='w-full h-full bg-green-600 rounded-xl overflow-hidden'>
-//                             <img src="https://ochi.design/wp-content/uploads/2025/02/Fyde_Front-1-1326x1101.png" alt="" />
-//                          </div>
-//                     </div>
-//                      <div className='cardcontainer  w-1/2 h-[75vh] '>
-//                          <div className='w-full h-full  overflow-hidden'>
-//                             <img src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-1326x1101.png" alt="" />
-//                          </div>
-//                     </div>
-//                   </div>
-//             </div>
-//        </div>
-//     </div>
-//   )
-// }
-
-// export default Feacture
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 

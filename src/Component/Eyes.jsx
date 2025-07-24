@@ -1,5 +1,6 @@
 
 
+import { motion } from 'framer-motion';
 import React, { useState, useEffect } from 'react';
 
 const Eyes = () => {
@@ -33,12 +34,12 @@ const Eyes = () => {
   }, []);
 
   return (
-    <div className='eyes w-full h-screen overflow-hidden relative'>
-      <div data-scroll data-scroll-speed="-.7" className='w-full h-full mt-20 bg-[url("https://images.pexels.com/photos/255464/pexels-photo-255464.jpeg")] bg-contain bg-no-repeat bg-center'>
-        <div className='absolute flex items-center justify-center gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+    <div className='eyes w-full  h-screen overflow-hidden relative'>
+      <motion.div data-scroll data-scroll-speed="-.7" className='w-full h-full mt-20 bg-[url("https://images.pexels.com/photos/255464/pexels-photo-255464.jpeg")] bg-contain bg-no-repeat bg-center'>
+        <div className='absolute flex items-center justify-center gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
           
           {/* Left Eye */}
-          <div data-scroll data-scroll-speed=".05"  className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center '>
+           <div data-scroll data-scroll-speed=".05"  className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center '>
             <div className='w-[10vw] h-[10vw] rounded-full bg-zinc-900 relative'>
               <div
                 className='w-10 h-10 rounded-full bg-zinc-100 absolute'
@@ -49,7 +50,9 @@ const Eyes = () => {
                 }}
               ></div>
             </div>
-          </div>
+          </div> 
+        
+
 
           {/* Right Eye */}
           <div data-scroll data-scroll-speed=".05" className='w-[15vw] h-[15vw] rounded-full bg-white flex items-center justify-center'>
@@ -66,9 +69,10 @@ const Eyes = () => {
           </div>
 
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
 
 export default Eyes;
+

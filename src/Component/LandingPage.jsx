@@ -34,7 +34,7 @@ const LandingPage = () => {
   </div>
 </div>
 
-      <div className='border-t-2 border-zinc-800 mt-20   flex justify-between items-center py-5 px-20'>
+      <div className='border-t-2 border-zinc-800 mt-20   flex justify-between items-center py-5 px-20  ' >
         {["For public and private companies", "from the first pitch to IPO"].map((item,index)=> <p className="text-md font-light tracking-light leading-none">{item}</p>)}
 
      <div className='start flex items-center gap-2'>
@@ -45,11 +45,13 @@ const LandingPage = () => {
             <span className='rotate-[45deg]'>
                 <FaLongArrowAltUp />
             </span>
-        </div>
+        </div> 
         
       </div>
      
       </div>
+     
+
       
     </div>
   )
@@ -58,3 +60,4 @@ const LandingPage = () => {
 
 
 export default LandingPage
+
